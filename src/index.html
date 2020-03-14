@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="manifest.json">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#008000"/>
+    <title>My hello world page</title>
+    <link rel="stylesheet" type="text/css" href="hello-world.css" media="all">
+  </head>
+  <body>
+    <h1 class="vertical-container">Hello World</h1>
+    <script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBtghZrDoyOExGf_VUIzOYtqjY1gLODNEc",
+        authDomain: "dsc29feb.firebaseapp.com",
+        databaseURL: "https://dsc29feb.firebaseio.com",
+        projectId: "dsc29feb",
+        storageBucket: "dsc29feb.appspot.com",
+        messagingSenderId: "335804497951",
+        appId: "1:335804497951:web:40f0fc8e65c4c96d11952a",
+        measurementId: "G-6JDZD1MHME"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script>
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/sw.js')
+          .then(function() {
+                console.log('Service Worker Registered');
+          });
+      }
+    </script>
+    <script>
+      const messaging = firebase.messaging();
+      messaging.requestPermission()
+      .then(function() {
+        console.log('Notification permission granted.');
+        return messaging.getToken();
+      })
+      .then(function(token) {
+        console.log(token);
+      })
+      .catch(function(err) {
+        console.log('Unable to get permission to notify.', err);
+      })
+    </script>
+  </body>
+</html>
