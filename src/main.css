@@ -1,0 +1,248 @@
+@font-face {
+  font-family: "Nexa Bold";
+  src: url('Nexa\ Bold.otf');
+  }
+@font-face{
+  font-family: "Dense";
+  src: url('Dense\ Reguler.otf');
+}
+@font-face{
+  font-family: "Simplifica";
+  src: url('Simplifica\ Typeface.ttf');
+}
+body{
+  background-color: #e8e1e2;
+}
+.header img{
+  position: relative;
+  z-index: 3;
+  top: 0px;
+  width: 1349px;
+  height: 654px;
+}
+.header .container{
+  left: 100px;
+  height: 500px;
+  width: 600px;
+  top: 50px;
+  z-index: 4;
+  position: absolute;
+  margin-left: 500px;
+}
+.header .container h4{
+  color: Black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header .container table tr td h2 a{
+  text-shadow: 3px 2px 1px grey;
+  border: none;
+  color: white;
+  font-family: Nexa Bold;
+  width: auto;
+  margin-top: 75px;
+  margin-left: 10px;
+}
+.header .container .one p{
+  margin-top: 75px;
+  margin-left: 10px;
+  font-size: 25px;
+  font-family: Simplifica Bold;
+  float: left;
+}
+.header .container .two p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  float: left;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+.header .container h1{
+  width: 366px;
+  margin-top: 130px;
+  margin-left: 10px;
+  font-family: Nexa Bold;
+}
+.header .container h5{
+  margin-left: 10px;
+  font-family: Nexa Bold;
+}
+.content{
+  width: 1349px;
+  height: 654px;
+}
+.content .bg2 img{
+  position: relative;
+  z-index: 3;
+  top: 0px;
+  width: 1349px;
+  height: 654px;
+}
+.content #about{
+  height: 500px;
+  width: 600px;
+  top: 654px;
+  z-index: 4;
+  position: absolute;
+  margin-left: 290px;
+}
+.content #about h1{
+  margin-left: 190px;
+  margin-top: 90px;
+  text-align: center;
+  font-family: Nexa Bold;
+}
+.content #about .h1 h1{
+  margin-top: 0px;
+  text-align: center;
+  font-family: Nexa Bold;
+}
+.content #about p{
+  width: 800px;
+  margin-top: 5px;
+  text-align: justify;
+  font-family: Dense;
+  font-size: 30px;
+  color: black;
+  height: 177px;
+}
+.content .bg3 img{
+  position: relative;
+  z-index: 3;
+  top: 0px;
+  width: 1349px;
+  height: 654px;
+  left: 0;
+}
+.content #works{
+  height: 500px;
+  width: 1249px;
+  top: 1308px;
+  z-index: 4;
+  position: absolute;
+  margin-left: 50px;
+}
+.content #works h1{
+  margin-top: 88px;
+  text-align: center;
+  font-family: Nexa Bold;
+}
+.content #works h2{
+  font-family: Nexa Bold;
+  font-size: 40px;
+  text-align: center;
+}
+.content #works table{
+  font-family: Dense;
+  font-size: 30px;
+  width: 470px;
+  text-align: center;
+  height: 150px;
+  margin-left: 60px;
+}
+.content #works .pendidikan{
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  height: 430px;
+  width: 500px;
+  border-radius: 10px;
+}
+.content #works .others{
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  height: 430px;
+  width: 500px;
+  border-radius: 10px;
+}
+.content #contact .mulbg1 img{
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  width: 1349px;
+  height: 654px;
+  left: 0;
+}
+.content #contact .mulbg2 img{
+  position: relative;
+  top: 0px;
+  z-index: 3;
+  width: 1349px;
+  height: 654px;
+  left: 0;
+}
+.content #contact .kontak{
+  height: 500px;
+  width: 510px;
+  top: 2045px;
+  z-index: 4;
+  position: absolute;
+  margin-left: 50px;
+}
+.content #contact .kontak h1{
+  text-align: center;
+  margin-top: 103px;
+  font-family: Nexa Bold;
+}
+.content #contact .kontak table{
+  color: #bff8ff;
+  font-family: Dense;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+.content #contact .skill h1{
+  text-align: center;
+  margin-top: 103px;
+  font-family: Nexa Bold;
+}
+.content #contact .skill .load2{
+  width: 50px;
+  margin-left: 70px;
+  float: left;
+  color: #bff8ff;
+  font-family: Dense;
+  font-size: 22px;
+  margin-top: 22px;
+}
+.content #contact .skill .load{
+  width: 300px;
+  margin-left: 157px;
+  margin-top: 40px;
+}
+.content #contact .skill .load .progress{
+  margin-top: 20px;
+}
+.content #contact .kontak table tr td{
+  padding: 10px;
+}
+.content #contact .skill{
+  height: 500px;
+  width: 510px;
+  top: 2045px;
+  z-index: 4;
+  position: absolute;
+  margin-left: 790px;
+}
+.footer{
+  width: 1349px;
+  position: absolute;
+  background-color: #03292e;
+  z-index: 3;
+  top: 2616px;
+  height: 250px;
+}
+.footer #cr p{
+  margin-top: 70px;
+  font-size: 25px;
+  font-family: Dense;
+  color: #8cf1ff;
+  text-align: center;
+}
+.footer .contact2 table{
+  margin-left: 530px;
+}
+.footer .contact2 table tr td a i{
+  color: #78efff;
+  padding: 10px;
+}
